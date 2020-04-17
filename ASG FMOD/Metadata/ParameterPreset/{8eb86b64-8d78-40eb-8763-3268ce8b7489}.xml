@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{8eb86b64-8d78-40eb-8763-3268ce8b7489}">
+		<property name="name">
+			<value>Panning</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2fef1ad1-8cb0-47be-8ece-e285f4b2f58f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{032c6771-fbbe-499f-970e-0a23694802df}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{032c6771-fbbe-499f-970e-0a23694802df}">
+		<property name="minimum">
+			<value>-90</value>
+		</property>
+		<property name="maximum">
+			<value>90</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

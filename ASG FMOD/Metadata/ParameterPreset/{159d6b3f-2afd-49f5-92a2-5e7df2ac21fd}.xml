@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{159d6b3f-2afd-49f5-92a2-5e7df2ac21fd}">
+		<property name="name">
+			<value>AlarmPanning</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d2aa1d27-31ef-4e79-9af5-6e8b04246d77}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{10034587-2d05-49b1-8625-dffb15642e37}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{10034587-2d05-49b1-8625-dffb15642e37}">
+		<property name="minimum">
+			<value>-90</value>
+		</property>
+		<property name="maximum">
+			<value>90</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

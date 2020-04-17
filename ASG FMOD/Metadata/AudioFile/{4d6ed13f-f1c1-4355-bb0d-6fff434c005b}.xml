@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{4d6ed13f-f1c1-4355-bb0d-6fff434c005b}">
+		<property name="assetPath">
+			<value>FX_SHOOT_CANCEL_4.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.8214375</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{383878c3-0870-4417-a728-176099e9696a}</destination>
+		</relationship>
+	</object>
+</objects>

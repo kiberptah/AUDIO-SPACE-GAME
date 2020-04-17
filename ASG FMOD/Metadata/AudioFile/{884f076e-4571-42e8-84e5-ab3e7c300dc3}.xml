@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{884f076e-4571-42e8-84e5-ab3e7c300dc3}">
+		<property name="assetPath">
+			<value>charge.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>32.571437500000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{383878c3-0870-4417-a728-176099e9696a}</destination>
+		</relationship>
+	</object>
+</objects>

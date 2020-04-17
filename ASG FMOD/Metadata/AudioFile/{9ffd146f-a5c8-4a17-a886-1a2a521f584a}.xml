@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{9ffd146f-a5c8-4a17-a886-1a2a521f584a}">
+		<property name="assetPath">
+			<value>beat_1_draft.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>79.629354166666673</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{383878c3-0870-4417-a728-176099e9696a}</destination>
+		</relationship>
+	</object>
+</objects>
