@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class CollectAmmo : MonoBehaviour
 {
-    public int maxAmmo = 10;
-    public int ammoPickUp = 1;
     void Start()
     {
         
@@ -19,13 +17,17 @@ public class CollectAmmo : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Ammo" && gameObject.GetComponent<ShootLaser>().ammo < maxAmmo)
+        if (other.tag == "Ammo")
         {
-            
+            gameObject.GetComponent<PlayerStats>().energy = 
+                Mathf.Clamp(gameObject.GetComponent<PlayerStats>().energy + other.GetComponent<AmmoBubbleMovement>().energy, 
+                0, 
+                gameObject.GetComponent<PlayerStats>().maxEnergy);
 
-            gameObject.GetComponent<ShootLaser>().ammo += ammoPickUp;
-            Destroy(other);
-            Debug.Log("+Ammo: " + gameObject.GetComponent<ShootLaser>().ammo);
+
+            //Destroy(other);
+            Debug.Log("+Energy: " + gameObject.GetComponent<PlayerStats>().energy);
+
         }
     }
 }

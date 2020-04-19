@@ -4,20 +4,19 @@ using UnityEngine;
 
 public class Scanner : MonoBehaviour
 {
+    private GameObject Player;
     public GameObject Scanwave;
     public float scanTime_in_seconds;
 
-    public enum scanMode
-    {
-        Missiles,
-        Ammo
-    }
-    public scanMode currentScanMode =  scanMode.Missiles;
+    
+
+    public float energyForScan = 5f;
 
     //bool approveScan = true;
     void OnEnable()
     {
-        StartCoroutine(ScanModeControl());
+        Player = GameObject.FindGameObjectWithTag("Player");
+        //StartCoroutine(ScanModeControl());
         StartCoroutine(ScanTimer());
         
     }
@@ -40,25 +39,36 @@ public class Scanner : MonoBehaviour
     IEnumerator ScanTimer()
     {
         while(true)
-        {          
-            if (Input.GetButtonDown("ScanMissiles") || Input.GetButtonDown("ScanAmmo"))
+        {
+            if (Input.GetButtonDown("ScanMissiles"))
             {
+                Scanwave.GetComponent<Scanwave>().currentScanMode = global::Scanwave.scanMode.Missiles;
+            }
+            if (Input.GetButtonDown("ScanAmmo"))
+            {
+                Scanwave.GetComponent<Scanwave>().currentScanMode = global::Scanwave.scanMode.Ammo;
+            }
+            if ((Input.GetButtonDown("ScanMissiles") || Input.GetButtonDown("ScanAmmo"))
+                && Player.GetComponent<PlayerStats>().energy >= energyForScan)
+            {
+                //Тратим энергию
+                Player.GetComponent<PlayerStats>().energy -= energyForScan;
+                // убираем предыдущий скан
                 if (GameObject.FindGameObjectWithTag("Scanwave") != null)
                 {
                     Destroy(GameObject.FindGameObjectWithTag("Scanwave"));
                 }
-                //Debug.Log("scan");
-
+                //делаем новый
                 GameObject scanWave;
                 scanWave = Instantiate(Scanwave, transform);
                 scanWave.SetActive(true);
-                //approveScan = true;
 
                 yield return new WaitForSeconds(scanTime_in_seconds);
             }
+            yield return null;
         }       
     }
-
+    /*
     IEnumerator ScanModeControl()
     {
         while(true)
@@ -80,4 +90,5 @@ public class Scanner : MonoBehaviour
             yield return null;
         }     
     }
+    */
 }

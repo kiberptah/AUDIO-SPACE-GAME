@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class AmmoSpawner : MonoBehaviour
 {
+    GameObject Player;
+
     public GameObject ammoPrefab;
 
-    private float minXCoord = -20f;
-    private float maxXCoord = 20f;
+    public float spawnOffset = 20f;
 
-    float ZCoord = 40f;
+    public float spawnDistance = 40f;
 
     public float spawnDelay = 5f;
 
     // Start is called before the first frame update
     void OnEnable()
     {
+        Player = GameObject.FindGameObjectWithTag("Player");
         StartCoroutine(SpawnAmmo());
     }
 
@@ -29,9 +31,12 @@ public class AmmoSpawner : MonoBehaviour
     {
         while (true)
         {
-            float XCoord = Random.Range(minXCoord, maxXCoord);
-
-            Instantiate(ammoPrefab, new Vector3(XCoord, 0, ZCoord), Quaternion.identity, null);
+            float XCoord = Random.Range(Player.transform.position.x + spawnOffset * 0.5f, Player.transform.position.x + spawnOffset);
+            if(System.Convert.ToBoolean(Random.value > 0.5f))
+            {
+                XCoord = -XCoord; 
+            }
+            Instantiate(ammoPrefab, new Vector3(XCoord, 0, spawnDistance), Quaternion.identity, null);
 
             yield return new WaitForSeconds(spawnDelay);
         }

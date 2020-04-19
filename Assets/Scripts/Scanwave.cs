@@ -7,7 +7,12 @@ public class Scanwave : MonoBehaviour
     public float maxScanDistance = 50f;
     public float speed = 100f;
     GameObject Player;
-
+    public enum scanMode
+    {
+        Missiles,
+        Ammo
+    }
+    public scanMode currentScanMode = scanMode.Missiles;
 
     // Аудио
     [FMODUnity.EventRef]
@@ -16,15 +21,21 @@ public class Scanwave : MonoBehaviour
     private FMOD.Studio.EventInstance eventMissileAlarm;
     private FMOD.Studio.EventInstance eventAmmoAlarm;
 
-
     public GameObject soundInstancePrefab;
     //private GameObject[] soundInstance = new GameObject[3];
     List<GameObject> soundInstances = new List<GameObject>();
     //
 
-
+    // Визуализация
+    public GameObject scanWaveVisualPrefab;
+    private GameObject scanWaveVisual;
     void Start()
     {
+        Player = GameObject.FindGameObjectWithTag("Player");
+        ///
+        //
+        scanWaveVisual = Instantiate(scanWaveVisualPrefab, Player.transform.position, Quaternion.identity);
+        scanWaveVisual.transform.rotation = scanWaveVisualPrefab.transform.rotation;
         /// Звук
         eventBeep = FMODUnity.RuntimeManager.CreateInstance(fmodEvent[0]);
         eventBeep.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
@@ -36,11 +47,10 @@ public class Scanwave : MonoBehaviour
         eventAmmoAlarm.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
 
         ///
-        Player = GameObject.FindGameObjectWithTag("Player");
-        ///
+
         ScanWaveSound();
         StartCoroutine(StretchScanwave());
-          
+        
     }
 
     // Update is called once per frame
@@ -66,11 +76,16 @@ public class Scanwave : MonoBehaviour
         while (transform.localScale.x < maxScanDistance)
         {
             transform.localScale = new Vector3(transform.localScale.x + speed * Time.deltaTime, transform.localScale.y, transform.localScale.z + speed * Time.deltaTime);
+            //transform.localScale = new Vector3(transform.localScale.x + speed * Time.deltaTime, transform.localScale.y + speed * Time.deltaTime, transform.localScale.z);
+            scanWaveVisual.transform.localScale = new Vector3(scanWaveVisual.transform.localScale.x + speed * Time.deltaTime, 
+                scanWaveVisual.transform.localScale.y + speed * Time.deltaTime,
+                scanWaveVisual.transform.localScale.z);
 
             yield return null;
             //yield return new WaitForSeconds(0.0001f);
         }
-        Destroy(gameObject);        
+        Destroy(scanWaveVisual);
+        Destroy(gameObject);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -83,7 +98,7 @@ public class Scanwave : MonoBehaviour
     {
         if (transform.localScale.x < maxScanDistance * 0.9f)
         {
-            if (transform.parent.GetComponent<Scanner>().currentScanMode == Scanner.scanMode.Missiles)
+            if (currentScanMode == scanMode.Missiles)
             {
                 if (other.gameObject.tag == "Missile")
                 {
@@ -91,7 +106,7 @@ public class Scanwave : MonoBehaviour
                 }
             }
 
-            if (transform.parent.GetComponent<Scanner>().currentScanMode == Scanner.scanMode.Ammo)
+            if (currentScanMode == scanMode.Ammo)
             {
                 if (other.gameObject.tag == "Ammo")
                 {
@@ -121,7 +136,7 @@ public class Scanwave : MonoBehaviour
         soundInstances[soundInstances.Count - 1] = Instantiate(soundInstancePrefab, other.transform);
         soundInstances[soundInstances.Count - 1].GetComponent<RunAudioGetMarkers>().audioInstance = eventMissileAlarm;
         ///Панорама
-        soundInstances[soundInstances.Count - 1].GetComponent<RunAudioGetMarkers>().audioInstance.setParameterByName("AlarmPanning", CorrectPanning(other));
+        soundInstances[soundInstances.Count - 1].GetComponent<RunAudioGetMarkers>().audioInstance.setParameterByName("Panning", CorrectPanning(other));
         ///Сближение
         soundInstances[soundInstances.Count - 1].GetComponent<RunAudioGetMarkers>().audioInstance.setParameterByName("Proximity", CorrectProximity(other));
         UnityEngine.Debug.Log(CorrectProximity(other));
@@ -152,7 +167,7 @@ public class Scanwave : MonoBehaviour
     float CorrectProximity(Collider other)
     {
         float multiplier;
-        multiplier = 100f / maxScanDistance;
+        multiplier = 100f / (maxScanDistance * 0.5f);
 
         float proximity = 0;
 

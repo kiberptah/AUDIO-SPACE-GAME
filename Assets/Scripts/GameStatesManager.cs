@@ -26,18 +26,25 @@ public class GameStatesManager : MonoBehaviour
 
     public void BeginGame()
     {
+        gameObject.GetComponent<SoundManager>().eventMusic_1.start();
+        Player.transform.position = new Vector3(0,0,0);
+
+
         gameSystems.SetActive(true);
         startButton.SetActive(false);
 
         ScorePanel.SetActive(false);
         gameScore = 0;
 
-        Player.GetComponent<ShootLaser>().ammo = Player.GetComponent<ShootLaser>().defaultAmmo;
-        Player.transform.position = new Vector3(0, 0, 0);
+        //Player.GetComponent<ShootLaser>().ammo = Player.GetComponent<ShootLaser>().defaultAmmo;
+        Player.GetComponent<PlayerStats>().ResetPlayerState();
     }
 
     public void Lose()
     {
+        gameObject.GetComponent<SoundManager>().eventPlayerDeath.start();
+        gameObject.GetComponent<SoundManager>().eventMusic_1.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+
         DestroyObjects();
 
         gameSystems.SetActive(false);

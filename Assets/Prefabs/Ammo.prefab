@@ -109,7 +109,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8024452175899584abd367a3fc22e9bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  eventPathCollectAmmo: event:/EntitySounds/Ammo/Ammo Picked
+  energy: 30
+  speed: 2
 --- !u!54 &-7788883501654059595
 Rigidbody:
   m_ObjectHideFlags: 0

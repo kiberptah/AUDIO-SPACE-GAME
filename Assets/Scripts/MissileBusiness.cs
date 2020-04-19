@@ -10,6 +10,10 @@ public class MissileBusiness : MonoBehaviour
     GameObject gameController;
     GameObject Player;
 
+    // Звуки
+    [FMODUnity.EventRef]
+    public string eventDestroyPath;
+    private FMOD.Studio.EventInstance eventDestroy;
     /*
     [FMODUnity.EventRef]
     public string[] fmodEvent = new string[1];
@@ -36,7 +40,8 @@ public class MissileBusiness : MonoBehaviour
 
 
         target = Player.transform;
-        
+        // Звук
+        eventDestroy = FMODUnity.RuntimeManager.CreateInstance(eventDestroyPath);
         /*
         /// Звук
         eventAlarm = FMODUnity.RuntimeManager.CreateInstance(fmodEvent[0]);
@@ -78,24 +83,25 @@ public class MissileBusiness : MonoBehaviour
     }
     */
 
-    /*
-     void CorrectPanning()
-     {
 
+    float CorrectPanning(GameObject other)
+    {
+        float panning;
 
-         float zdist = gameObject.transform.position.z - Player.transform.position.z;
-         float xdist = gameObject.transform.position.x - Player.transform.position.x;
-         float angl = Mathf.Rad2Deg * Mathf.Atan(xdist / zdist);
+        float zdist = other.transform.position.z - Player.transform.position.z;
+        float xdist = other.transform.position.x - Player.transform.position.x;
 
-         panning = angl;
+        float angl = Mathf.Rad2Deg * Mathf.Atan(xdist / zdist);
 
-         eventAlarm.setParameterByID(panParameterID, panning);
-         /*
-         UnityEngine.Debug.Log("z = " + zdist);
-         UnityEngine.Debug.Log("x = " + xdist);
-         UnityEngine.Debug.Log("angl = " + angl);
+        panning = angl;
+        return panning;
 
-     } */
+        /*
+        UnityEngine.Debug.Log("z = " + zdist);
+        UnityEngine.Debug.Log("x = " + xdist);
+        UnityEngine.Debug.Log("angl = " + angl);
+        */
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -116,6 +122,9 @@ public class MissileBusiness : MonoBehaviour
         }
         if (other.gameObject.tag == "Bullet")
         {
+            eventDestroy.setParameterByName("Panning", CorrectPanning(gameObject));
+            eventDestroy.start();
+
             Destroy(gameObject);
 
             gameController.GetComponent<GameStatesManager>().IncreaseScore(1);

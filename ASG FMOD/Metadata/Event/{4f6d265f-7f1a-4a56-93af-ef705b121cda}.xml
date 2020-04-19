@@ -29,6 +29,7 @@
 		<relationship name="groupTracks">
 			<destination>{eb2761cb-abc5-46d8-8cb2-263a5dfeb72c}</destination>
 			<destination>{4c9bb27f-5547-4727-a395-dbe63c92911f}</destination>
+			<destination>{76447ed2-ee6c-41d2-adbf-46aaa9ba1d48}</destination>
 		</relationship>
 		<relationship name="timeline">
 			<destination>{7d5c3922-780b-4f99-a3fc-202b3053349f}</destination>
@@ -90,6 +91,11 @@
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{5fd367b6-d290-4e48-a4d8-3b90d458d6de}</destination>
+		</relationship>
+	</object>
+	<object class="GroupTrack" id="{76447ed2-ee6c-41d2-adbf-46aaa9ba1d48}">
+		<relationship name="mixerGroup">
+			<destination>{98e2129a-f736-47d1-b12c-ddaa53d654bc}</destination>
 		</relationship>
 	</object>
 	<object class="Timeline" id="{7d5c3922-780b-4f99-a3fc-202b3053349f}">
@@ -203,6 +209,20 @@
 		</relationship>
 		<relationship name="panner">
 			<destination>{09ec7ebe-f056-40a7-84dc-2864d441a77e}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{76154894-9879-4199-a7f2-7dcc23571b64}</destination>
+		</relationship>
+	</object>
+	<object class="EventMixerGroup" id="{98e2129a-f736-47d1-b12c-ddaa53d654bc}">
+		<property name="name">
+			<value>Audio 1</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{1bdd5dee-fdee-4e33-bfbb-da4d261eeb6c}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{c663731f-99e9-47e1-a29f-0a6309da1fd2}</destination>
 		</relationship>
 		<relationship name="output">
 			<destination>{76154894-9879-4199-a7f2-7dcc23571b64}</destination>
@@ -328,6 +348,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{09ec7ebe-f056-40a7-84dc-2864d441a77e}" />
+	<object class="MixerBusEffectChain" id="{1bdd5dee-fdee-4e33-bfbb-da4d261eeb6c}">
+		<relationship name="effects">
+			<destination>{6660f8e9-e0c8-4efd-b80b-4ddb91c01602}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{c663731f-99e9-47e1-a29f-0a6309da1fd2}" />
 	<object class="SpatialiserEffect" id="{442a5d20-c9c0-40fb-b99c-b64c65f55e17}">
 		<property name="panBlend">
 			<value>0</value>
@@ -405,6 +431,7 @@
 	</object>
 	<object class="MixerBusFader" id="{155c5f0f-15e0-4687-b943-32706df7da7a}" />
 	<object class="GainEffect" id="{74cf1742-f136-4f3f-85ea-431ef00bc3b9}" />
+	<object class="MixerBusFader" id="{6660f8e9-e0c8-4efd-b80b-4ddb91c01602}" />
 	<object class="Automator" id="{9ed40022-2333-4754-bb93-03d9697200ff}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>userStereoAxis</value>

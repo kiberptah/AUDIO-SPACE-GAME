@@ -5,8 +5,12 @@ using UnityEngine;
 public class MissileSpawner : MonoBehaviour
 {
     public GameObject missilePrefab;
+    GameObject Player;
 
+    public float spawnRadius = 40f;
     public float spawnDelay = 2f;
+
+
 
     private int spawnZone;
 
@@ -22,6 +26,7 @@ public class MissileSpawner : MonoBehaviour
     // Start is called before the first frame update
     void OnEnable()
     {
+        Player = GameObject.FindGameObjectWithTag("Player");
         StartCoroutine(SpawnMissile());
     }
 
@@ -35,13 +40,27 @@ public class MissileSpawner : MonoBehaviour
     {
         while (true)
         {
+            Vector2 coordinates;
+            coordinates = Random.insideUnitCircle.normalized * spawnRadius;
+            coordinates.y = Mathf.Abs(coordinates.y); // чтобы спавнить только в передней полусфере
+
+            Instantiate(missilePrefab, Player.transform.position + new Vector3(coordinates.x, 0, coordinates.y), Quaternion.identity, null);
+
+            yield return new WaitForSeconds(spawnDelay);
+        }
+    }
+
+    IEnumerator SpawnMissileOld()
+    {
+        while (true)
+        {
             spawnZone = Random.Range(1, 3);
             switch (spawnZone)
             {
                 case 1:
                     {
                         minXCoord = -40f;
-                        maxXCoord = -20f;
+                        maxXCoord = -40f;
 
                         minZCoord = 0;
                         maxZCoord = 40f;
@@ -49,7 +68,7 @@ public class MissileSpawner : MonoBehaviour
                     break;
                 case 2:
                     {
-                        minXCoord = 20f;
+                        minXCoord = 40f;
                         maxXCoord = 40f;
 
                         minZCoord = 0;

@@ -45,9 +45,12 @@ public class ShootLaser : MonoBehaviour
     GameObject theLaser;
     public float laserSpeed = 10f;
 
+    /*
     public int ammo;
     public int defaultAmmo = 10;
-
+    */
+    public float energyForShot = 10f;
+    public float energyForChargeSec = 1f;
     public float cooldown;
     
     
@@ -78,7 +81,7 @@ public class ShootLaser : MonoBehaviour
         eventCancel.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
         /// 
         /// Сбрасываем боезапас в начале игры
-        ammo = defaultAmmo;
+        //ammo = defaultAmmo;
     }
 
     // Update is called once per frame
@@ -92,13 +95,14 @@ public class ShootLaser : MonoBehaviour
 
     public void Control()
     {
-        if (Input.GetButton("Charge") && status != shootingStatus.Fire)
+        if (Input.GetButton("Charge") 
+            && status != shootingStatus.Fire
+            && gameObject.GetComponent<PlayerStats>().energy > 0)
         {
             if (status == shootingStatus.Ready)
             {
                 //UnityEngine.Debug.Log(status);
                 /// Начинаем гудеть
-
                 soundInstance[0] = Instantiate(soundInstancePrefab, transform);
                 soundInstance[0].GetComponent<RunAudioGetMarkers>().audioInstance = eventCharge;
                 soundInstance[0].GetComponent<RunAudioGetMarkers>().Execute();
@@ -110,9 +114,15 @@ public class ShootLaser : MonoBehaviour
             {
                 status = shootingStatus.Charging;
             }
+            if (status == shootingStatus.Charging)
+            {
+                // Тратим энергию
+                StartCoroutine(suckEnergy());
+            }
 
             if (Input.GetButtonDown("Fire") 
-                && status == shootingStatus.Charging)
+                && status == shootingStatus.Charging
+                && gameObject.GetComponent<PlayerStats>().energy >= energyForShot)
             {
                 // Спавним пулю и т.д.
                 Fire();
@@ -127,7 +137,7 @@ public class ShootLaser : MonoBehaviour
                 StartCoroutine(AfterFire(cooldown));                             
             }
         }
-        if (Input.GetButtonUp("Charge"))
+        if (Input.GetButtonUp("Charge") || gameObject.GetComponent<PlayerStats>().energy <= 0)
         {            
             if(status == shootingStatus.StartingCharge)
             {
@@ -232,19 +242,25 @@ public class ShootLaser : MonoBehaviour
 
     void Fire()
     {
-        if (ammo > 0)
-        {
+
             /// Отослать пулю
-            theLaser = Instantiate(laserPrefab, transform);
+            theLaser = Instantiate(laserPrefab, transform.position, Quaternion.identity, null);
             theLaser.transform.rotation = Quaternion.Euler(0, lookDirection, 0);
             theLaser.SetActive(true);
 
             /// Потратить боеприпасы
-            --ammo;
+            gameObject.GetComponent<PlayerStats>().energy -= energyForShot;
 
-            UnityEngine.Debug.Log("Ammo: " + ammo);
-        }       
+            UnityEngine.Debug.Log("Energy: " + gameObject.GetComponent<PlayerStats>().energy);
+    
     }
 
+    IEnumerator suckEnergy()
+    {
+        float udpateRate = 1f;
 
+        gameObject.GetComponent<PlayerStats>().energy -= energyForChargeSec * Time.deltaTime;
+
+        yield return new WaitForSeconds(udpateRate);
+    }
 }

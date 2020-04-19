@@ -34,6 +34,40 @@ MonoBehaviour:
   Max: 90
   Default: 0
   Exists: 0
+--- !u!114 &-9171664775401279490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-9169598840177221399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &-9156696257183564922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,6 +188,40 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &-9001144298947179670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-8996072910254158908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-8980123549894752036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,6 +273,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-8923911580333812474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227655683298837
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-8922200371080617832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,6 +309,40 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8887427847343827727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-8884837892819435847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-8868604200348524351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,6 +360,40 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &-8837875628290911536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-8808249862983756336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-8807818309265301517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,6 +409,24 @@ MonoBehaviour:
   Path: ASG FMOD/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 637217015072793314
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8785202761672781002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637227627482219397
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -292,6 +464,23 @@ MonoBehaviour:
   lastModified: 637221327529299014
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-8650703381215765814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
   Exists: 0
 --- !u!114 &-8586451903282180276
 MonoBehaviour:
@@ -385,6 +574,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8465390907133445149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-8446122322460781302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637228282763644156
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-8420475974526240997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -436,6 +660,40 @@ MonoBehaviour:
   lastModified: 637220330003955746
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-8346446724987304133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-8335006564940677634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
   Exists: 0
 --- !u!114 &-8334585984339699202
 MonoBehaviour:
@@ -489,6 +747,23 @@ MonoBehaviour:
   Max: 90
   Default: 0
   Exists: 0
+--- !u!114 &-8270014080260803361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-8256396557190145943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -507,6 +782,40 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8224049610376968838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Explosion/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-8220059778968902016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 1
 --- !u!114 &-8190346232684989803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -524,6 +833,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-8168930141794375367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 1
 --- !u!114 &-8159435820460522705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -542,6 +868,59 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8115015582447546795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-8102827685995046187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637227655960159818
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8099767862982707431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637228313988271594
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-8096049575188951624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,6 +1043,23 @@ MonoBehaviour:
   Max: 90
   Default: 0
   Exists: 0
+--- !u!114 &-7938258350536177349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/AlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-7910409386564290330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -698,6 +1094,40 @@ MonoBehaviour:
   lastModified: 637212760481594821
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-7879566499313736757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-7847876688338296658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &-7820783637588476591
 MonoBehaviour:
@@ -734,6 +1164,23 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 0
+--- !u!114 &-7754975525433532764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &-7720407957081519933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -750,6 +1197,58 @@ MonoBehaviour:
   Min: -100
   Max: 100
   Default: 0
+  Exists: 0
+--- !u!114 &-7702807230126039879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-7688523602383454245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-7643750813247149315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637227630162255424
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-7637808294236815235
 MonoBehaviour:
@@ -769,6 +1268,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-7629936517487593409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-7571607533886658112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -782,6 +1298,23 @@ MonoBehaviour:
   m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
   m_EditorClassIdentifier: 
   Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-7542083777318771112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/AlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AlarmPanning
   Min: -90
   Max: 90
   Default: 0
@@ -854,6 +1387,58 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 0
+--- !u!114 &-7497544978013556403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 1
+--- !u!114 &-7492159907897913394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637227441475715198
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7485884410787904651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Explosion/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-7446986392410262546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -870,6 +1455,58 @@ MonoBehaviour:
   Min: -100
   Max: 100
   Default: 0
+  Exists: 0
+--- !u!114 &-7433510679131530450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-7406706387463238180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-7390917789066248183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637227623511886371
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-7380910617679624731
 MonoBehaviour:
@@ -1026,6 +1663,23 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 0
+--- !u!114 &-7211325042169169680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &-7188576477450629600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1165,6 +1819,24 @@ MonoBehaviour:
   Min: -100
   Max: 100
   Default: 0
+  Exists: 0
+--- !u!114 &-7086554363211407054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637228254800348603
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-7050934634788580431
 MonoBehaviour:
@@ -1340,6 +2012,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-6776611372530245542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-6775504967692359392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1355,6 +2044,24 @@ MonoBehaviour:
   Path: ASG FMOD/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 637216447529643751
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6746450207059606468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637227440948847636
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -1375,6 +2082,58 @@ MonoBehaviour:
   lastModified: 637217015073223205
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-6719949140853367715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-6706113034797264013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637227655683008932
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6694851823641443829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
   Exists: 0
 --- !u!114 &-6675223380250856556
 MonoBehaviour:
@@ -1463,6 +2222,24 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &-6578933683517661571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227624648608669
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-6563159677126356640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1476,6 +2253,23 @@ MonoBehaviour:
   m_Name: parameter:/Missile Alarm/Proximity
   m_EditorClassIdentifier: 
   Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-6521137897164167381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
   Min: 0
   Max: 100
   Default: 0
@@ -1496,6 +2290,41 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+  Exists: 0
+--- !u!114 &-6473359732222350512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-6421319348747086513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637227624230140328
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-6373431012110868093
 MonoBehaviour:
@@ -1551,6 +2380,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-6319534635063122062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &-6309661695799513418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1566,6 +2412,23 @@ MonoBehaviour:
   Name: Fire
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-6289489099607126300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
   Default: 0
   Exists: 0
 --- !u!114 &-6267027440468866001
@@ -1585,6 +2448,23 @@ MonoBehaviour:
   lastModified: 637225911800113168
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-6250598980036337718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
   Exists: 0
 --- !u!114 &-6249990913872983672
 MonoBehaviour:
@@ -1638,6 +2518,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-6168273628790780018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-6164464846629077081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1655,6 +2552,23 @@ MonoBehaviour:
   lastModified: 637225911676834223
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-6162719888702925471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
   Exists: 0
 --- !u!114 &-6108849167883925757
 MonoBehaviour:
@@ -1828,6 +2742,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-5822117569229054293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Explosion/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-5818561753564724793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-5815392234047724993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1862,6 +2810,41 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-5690141584121068861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-5688656455783853222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637228313987791745
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-5661111623006421631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1880,6 +2863,40 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5630615284805787962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-5630117074689936537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &-5615168902340117697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1897,6 +2914,23 @@ MonoBehaviour:
   lastModified: 637211841886757731
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-5606548881797853760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
   Exists: 0
 --- !u!114 &-5595370983138099123
 MonoBehaviour:
@@ -1965,6 +2999,76 @@ MonoBehaviour:
   Name: Pan
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-5550237320048030380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637226945263557628
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5541135240580484076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637226945263587489
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5482820475469879564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-5476866221151307036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
   Default: 0
   Exists: 0
 --- !u!114 &-5453271958460881449
@@ -2036,6 +3140,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-5425096023791152199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/AlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-5424111550752705761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &-5422706173736426758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2052,6 +3190,24 @@ MonoBehaviour:
   Min: -100
   Max: 100
   Default: 0
+  Exists: 0
+--- !u!114 &-5405641937840013948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637227630163185176
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-5400193995908439230
 MonoBehaviour:
@@ -2105,6 +3261,23 @@ MonoBehaviour:
   lastModified: 637225909038785995
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-5365802669201911723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
   Exists: 0
 --- !u!114 &-5363075996806950386
 MonoBehaviour:
@@ -2243,6 +3416,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-5235476107147758434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &-5226725759598068729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2275,6 +3465,23 @@ MonoBehaviour:
   Name: Pan
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-5145684519515143344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
   Default: 0
   Exists: 0
 --- !u!114 &-5128145824242407302
@@ -2364,6 +3571,40 @@ MonoBehaviour:
   Max: 90
   Default: 0
   Exists: 0
+--- !u!114 &-5074495042701596230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-5059698573728666847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-5057824910258126029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2414,6 +3655,58 @@ MonoBehaviour:
   Name: Resonance
   Min: 0
   Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-5008816483165025075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637227656962864003
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4984254660176990013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-4959165306672254426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
   Default: 0
   Exists: 0
 --- !u!114 &-4953071157588672778
@@ -2485,6 +3778,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4917221956208102540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-4913881225024872624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2503,6 +3813,75 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4879615889641888240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Explosion/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-4875796576606362075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227440951726862
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4866185371673608423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Explosion/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-4829269807731584244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-4774445955633574768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2520,6 +3899,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-4739732851622939550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Explosion/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-4730510982277817432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2535,7 +3931,7 @@ MonoBehaviour:
   Path: event:/PlayerSounds/Laser/LaserCancel
   guid: 2b0458b9d1d2724bba2b74f863316f61
   Banks:
-  - {fileID: 4397049205581886918}
+  - {fileID: 4851959432335490893}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2560,6 +3956,58 @@ MonoBehaviour:
   lastModified: 637226903331116204
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-4705985010910130126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 1
+--- !u!114 &-4692154039100614283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227656962654073
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4679043644519365474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
   Exists: 0
 --- !u!114 &-4662097145372337892
 MonoBehaviour:
@@ -2608,6 +4056,23 @@ MonoBehaviour:
   m_Name: parameter:/LaserCharge/Resonance
   m_EditorClassIdentifier: 
   Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-4522771424310002799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
   Min: 0
   Max: 100
   Default: 0
@@ -2752,6 +4217,40 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 0
+--- !u!114 &-4310109562385806293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-4310067113616343125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Explosion/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-4286103701699806164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2786,6 +4285,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-4260019346532719902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637226945263277601
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-4234800818653695967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2801,8 +4318,8 @@ MonoBehaviour:
   Path: event:/PlayerSounds/Laser/LaserShoot
   guid: 7ba9cd90175bed4cbc655bd66b9ab712
   Banks:
-  - {fileID: 4240733732561121220}
-  - {fileID: 4397049205581886918}
+  - {fileID: 6340908652184750949}
+  - {fileID: 4851959432335490893}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2827,6 +4344,23 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &-4195709017095637701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-4181129176668372549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2842,6 +4376,41 @@ MonoBehaviour:
   Name: Panning
   Min: -100
   Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-4172527721647402970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637227624222412307
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4171046538204588185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
   Default: 0
   Exists: 0
 --- !u!114 &-4123262593737156503
@@ -2896,6 +4465,77 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4065450906508056306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637227624648328771
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4054410827037265167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227654039017344
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4038110802924944507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227636872410043
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4008589195677678533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &-4001939312540389921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2947,6 +4587,24 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &-3965545538230632367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637227624648808613
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-3959729076322352695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2980,6 +4638,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  Exists: 0
+--- !u!114 &-3899280206384320711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637227636872130142
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-3890650407402421860
 MonoBehaviour:
@@ -3104,6 +4780,23 @@ MonoBehaviour:
   Max: 90
   Default: 0
   Exists: 0
+--- !u!114 &-3755901053853163062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &-3754821533569575679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3207,6 +4900,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-3649064959873159639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-3618603129382396679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637227655683868697
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-3604796586866714365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3223,6 +4951,59 @@ MonoBehaviour:
   Min: 0
   Max: 100
   Default: 0
+  Exists: 0
+--- !u!114 &-3597984696195355941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-3581148012982654314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637227623511596455
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3576382836494818150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637226939647232115
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-3567615335085091753
 MonoBehaviour:
@@ -3310,6 +5091,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-3548050740603896114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-3542130628370449757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3379,6 +5177,41 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &-3476490890887566235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637227440954649281
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3473815664740086761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-3453702250052582872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3397,6 +5230,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-3427721840533529495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-3423269574823409906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3413,7 +5263,77 @@ MonoBehaviour:
   Min: 0
   Max: 100
   Default: 0
-  Exists: 1
+  Exists: 0
+--- !u!114 &-3398979043970366997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-3393718090451287406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637227630162735265
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3392100721181205612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Explosion/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-3388276902194048962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227623511386529
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-3361618372513857766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3446,14 +5366,31 @@ MonoBehaviour:
   Path: event:/EntitySounds/Ammo/Ammo Picked
   guid: 987f074e9b71334a93b0a276c76cc922
   Banks:
-  - {fileID: 3793080245990645950}
+  - {fileID: -5688656455783853222}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 221
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 217
+--- !u!114 &-3341106203193491998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-3324865293003248564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3470,6 +5407,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  Exists: 0
+--- !u!114 &-3314437042254753451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637228254800638525
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-3303079913992946563
 MonoBehaviour:
@@ -3539,14 +5494,14 @@ MonoBehaviour:
   Path: event:/PlayerSounds/Laser/LaserCharge
   guid: 5f266d4f1a7f564a93afef705b121cda
   Banks:
-  - {fileID: 4240733732561121220}
-  - {fileID: 4397049205581886918}
+  - {fileID: 6340908652184750949}
+  - {fileID: 4851959432335490893}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 145404492590359709}
-  - {fileID: -3423269574823409906}
+  - {fileID: -8168930141794375367}
+  - {fileID: -7497544978013556403}
   MinDistance: 0
   MaxDistance: 0
   Length: 10500
@@ -3566,6 +5521,23 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  Exists: 0
+--- !u!114 &-3209335428587932245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
   Exists: 0
 --- !u!114 &-3188916133325194221
 MonoBehaviour:
@@ -3599,6 +5571,58 @@ MonoBehaviour:
   Name: Pan
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-3166246634441627854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-3152880556551626895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637227441475415309
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3124247588783951418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
   Default: 0
   Exists: 0
 --- !u!114 &-3110421820257772773
@@ -3636,6 +5660,23 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &-3041138597688531208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-2960056252258354870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3649,6 +5690,23 @@ MonoBehaviour:
   m_Name: parameter:/Missile Alarm/Proximity
   m_EditorClassIdentifier: 
   Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-2947546737661726019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
   Min: 0
   Max: 100
   Default: 0
@@ -3670,6 +5728,23 @@ MonoBehaviour:
   lastModified: 637225806041007626
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-2946385316359862982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
   Exists: 0
 --- !u!114 &-2937120268269662253
 MonoBehaviour:
@@ -3723,6 +5798,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-2886597164688647229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-2874289315940715273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3740,6 +5832,23 @@ MonoBehaviour:
   lastModified: 637221652291707125
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-2840842710295103012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &-2790068238853637452
 MonoBehaviour:
@@ -3809,6 +5918,29 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 0
+--- !u!114 &-2754259684192678384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Test Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Test Ambience
+  guid: 055cea4921546c499aebcb17c0c563bc
+  Banks:
+  - {fileID: -8099767862982707431}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 188571
 --- !u!114 &-2724205582452988100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3951,6 +6083,59 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-2565275318813452871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637228282763094334
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2525602399030341168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637227655959310096
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2524689665797089174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-2524279283906612095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3984,6 +6169,41 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  Exists: 0
+--- !u!114 &-2487395900528823197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-2480659320281436687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637226945333170604
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-2461996337235810711
 MonoBehaviour:
@@ -4020,6 +6240,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-2375172552495987394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &-2370123120846091127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4055,6 +6292,23 @@ MonoBehaviour:
   lastModified: 637211842052767250
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-2308499409538032796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
   Exists: 0
 --- !u!114 &-2260968083604267642
 MonoBehaviour:
@@ -4103,6 +6357,58 @@ MonoBehaviour:
   m_Name: parameter:/Missile Alarm/Proximity
   m_EditorClassIdentifier: 
   Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-2241707989119272574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227631310794973
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2235762139309389382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-2223255785144808232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
   Min: 0
   Max: 100
   Default: 0
@@ -4263,6 +6569,58 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-2030938008320713355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-2023017921292623385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-2004040590764568034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227441475205362
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-1974975384081978979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4315,6 +6673,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-1913679982430952626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637227654039557159
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-1869716286621402415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4348,6 +6724,23 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  Exists: 0
+--- !u!114 &-1786719022357617046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
   Exists: 0
 --- !u!114 &-1767477494348702672
 MonoBehaviour:
@@ -4384,6 +6777,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-1671651756661176012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &-1671457193565837729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4417,13 +6827,14 @@ MonoBehaviour:
   Path: event:/EntitySounds/Missile/Missile Explosion
   guid: 6938cd3b56f4384b9d43df27ebb5357d
   Banks:
-  - {fileID: 3793080245990645950}
+  - {fileID: -5688656455783853222}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  Parameters:
+  - {fileID: 3769189917652045378}
+  MinDistance: 0
+  MaxDistance: 0
   Length: 3433
 --- !u!114 &-1633539851234415546
 MonoBehaviour:
@@ -4474,6 +6885,40 @@ MonoBehaviour:
   Name: Pan
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-1596638639962269035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/AlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-1572578588606928657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
   Default: 0
   Exists: 0
 --- !u!114 &-1560065836491828356
@@ -4564,6 +7009,41 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 0
+--- !u!114 &-1481675413026601243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/AlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-1474294741353703585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637228282763304275
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-1465757365116779878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4616,6 +7096,23 @@ MonoBehaviour:
   lastModified: 637212143367000861
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-1347502811563012648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
   Exists: 0
 --- !u!114 &-1320065559273754898
 MonoBehaviour:
@@ -4687,6 +7184,24 @@ MonoBehaviour:
   Max: 90
   Default: 0
   Exists: 0
+--- !u!114 &-1267348849912756959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637228253203548053
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-1231223859483504311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4698,6 +7213,41 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-1225862848205759870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637227631310505074
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-1181145221419298063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Panning
   m_EditorClassIdentifier: 
   Name: Panning
   Min: -90
@@ -4751,6 +7301,40 @@ MonoBehaviour:
   m_Name: parameter:/LaserCharge/Resonance
   m_EditorClassIdentifier: 
   Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-1112919489899905486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-1066498422631621990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
   Min: 0
   Max: 100
   Default: 0
@@ -4878,6 +7462,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-928953482620620482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &-850794419956473473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4894,6 +7495,24 @@ MonoBehaviour:
   Min: -90
   Max: 90
   Default: 0
+  Exists: 0
+--- !u!114 &-849278553391253562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637226939647871907
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-836187873314758943
 MonoBehaviour:
@@ -4929,7 +7548,25 @@ MonoBehaviour:
   Min: -90
   Max: 90
   Default: 0
-  Exists: 1
+  Exists: 0
+--- !u!114 &-813544050211300608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637227656963203887
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-811575096004091247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4947,6 +7584,23 @@ MonoBehaviour:
   lastModified: 637217122081916830
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-797009403088300518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
   Exists: 0
 --- !u!114 &-781130891181160037
 MonoBehaviour:
@@ -4966,6 +7620,57 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-776559608519415948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Explosion/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-755731013742221693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &-738720130814879591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &-733920694287427488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4983,6 +7688,41 @@ MonoBehaviour:
   lastModified: 637217014134073283
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-733385305826536509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227655959600006
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-715633002816043645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
   Exists: 0
 --- !u!114 &-714672771974784899
 MonoBehaviour:
@@ -5018,6 +7758,23 @@ MonoBehaviour:
   lastModified: 637217226310701305
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-687459103236357795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
   Exists: 0
 --- !u!114 &-675672995174423494
 MonoBehaviour:
@@ -5123,6 +7880,41 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 0
+--- !u!114 &-612060801955064109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227627482509306
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-600250033807956610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &-591300991771243792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5138,6 +7930,23 @@ MonoBehaviour:
   Name: Resonance
   Min: 0
   Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-575628631541216953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
   Default: 0
   Exists: 0
 --- !u!114 &-553977748296844376
@@ -5175,6 +7984,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-537302037995982455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637227631311014902
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-523343671463082494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5209,6 +8036,23 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  Exists: 0
+--- !u!114 &-498682520432078509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
   Exists: 0
 --- !u!114 &-495266755817408102
 MonoBehaviour:
@@ -5261,6 +8105,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-453397608320660338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637228253215322714
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-385645047021194397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5277,6 +8139,24 @@ MonoBehaviour:
   Min: -100
   Max: 100
   Default: 0
+  Exists: 0
+--- !u!114 &-372190803681124166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637228255054330667
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-353828253460841783
 MonoBehaviour:
@@ -5366,6 +8246,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-270442834296700578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-269988211060770621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5397,11 +8294,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ASG FMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637226916840809314
+  lastModified: 637228313988091644
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1632
+    Value: 1720
   Exists: 1
 --- !u!114 &-241918842799454685
 MonoBehaviour:
@@ -5419,6 +8316,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  Exists: 0
+--- !u!114 &-238795773621529454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637227636872609987
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-184087089613233864
 MonoBehaviour:
@@ -5455,6 +8370,40 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 0
+--- !u!114 &-91675654690925350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &-80517012369503940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5469,10 +8418,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -260690118411374230}
-  - {fileID: 3793080245990645950}
-  - {fileID: 4240733732561121220}
-  - {fileID: 1646847419487454777}
-  - {fileID: 4397049205581886918}
+  - {fileID: -5688656455783853222}
+  - {fileID: 6340908652184750949}
+  - {fileID: -8099767862982707431}
+  - {fileID: 4851959432335490893}
   EditorEvents:
   - {fileID: -3253684018283271949}
   - {fileID: -4730510982277817432}
@@ -5483,12 +8432,14 @@ MonoBehaviour:
   - {fileID: 7648966579430207799}
   - {fileID: -1653603808189291216}
   - {fileID: -3355646271816109162}
+  - {fileID: -2754259684192678384}
+  - {fileID: 1347266655348114570}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 4240733732561121220}
+  - {fileID: 6340908652184750949}
   StringsBanks:
   - {fileID: -260690118411374230}
-  stringsBankWriteTime: 637226916840809314
+  stringsBankWriteTime: 637228313988091644
   cacheVersion: 3
 --- !u!114 &16694743199758183
 MonoBehaviour:
@@ -5507,6 +8458,40 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &36842202299703792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &111986052124736290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &118864364982448319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5523,6 +8508,40 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  Exists: 0
+--- !u!114 &121290465972196989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 1
+--- !u!114 &127957356996151640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
   Exists: 0
 --- !u!114 &128010244060501801
 MonoBehaviour:
@@ -5576,7 +8595,7 @@ MonoBehaviour:
   Min: -90
   Max: 90
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &170768190439039962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5629,6 +8648,23 @@ MonoBehaviour:
   lastModified: 637221638458427489
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &210642743434928761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
   Exists: 0
 --- !u!114 &214363271292485197
 MonoBehaviour:
@@ -5717,6 +8753,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &293615665540649832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &322163290658730848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5749,6 +8802,23 @@ MonoBehaviour:
   Name: Panning
   Min: -90
   Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &335965630312556241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
   Default: 0
   Exists: 0
 --- !u!114 &364607547998672007
@@ -5892,6 +8962,24 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &510184571751077249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637227655683508773
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &550504767729023616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5927,6 +9015,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &599015073296011931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &611540559951995403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5940,6 +9045,23 @@ MonoBehaviour:
   m_Name: parameter:/LaserCharge/Panning
   m_EditorClassIdentifier: 
   Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &633578530846515383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
   Min: -90
   Max: 90
   Default: 0
@@ -6013,6 +9135,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &726257359216210023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &727804493245305012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6035,6 +9174,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4754
+--- !u!114 &728905360202396931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/AlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &733262325368833290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6053,6 +9209,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &738491005803594700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &753893765160378468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6069,6 +9242,23 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  Exists: 0
+--- !u!114 &775953963570464022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
   Exists: 0
 --- !u!114 &819839028906628031
 MonoBehaviour:
@@ -6122,6 +9312,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &831793703727101625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 1
 --- !u!114 &846352213028661338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6137,13 +9344,13 @@ MonoBehaviour:
   Path: event:/EntitySounds/Missile/Missile Alarm
   guid: baa91b70ce450448a10e65d8c34cc16b
   Banks:
-  - {fileID: 3793080245990645950}
+  - {fileID: -5688656455783853222}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 1921805778778966262}
-  - {fileID: 2937865301567718578}
+  - {fileID: 121290465972196989}
+  - {fileID: -4705985010910130126}
   MinDistance: 0
   MaxDistance: 0
   Length: 100
@@ -6393,6 +9600,23 @@ MonoBehaviour:
   Max: 90
   Default: 0
   Exists: 0
+--- !u!114 &1026478222548967202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &1062898984476735495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6408,6 +9632,23 @@ MonoBehaviour:
   Name: Resonance
   Min: 0
   Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &1062950634585670011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/AlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AlarmPanning
+  Min: -90
+  Max: 90
   Default: 0
   Exists: 0
 --- !u!114 &1104063928060612433
@@ -6461,6 +9702,23 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 0
+--- !u!114 &1188753950382547086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &1218587149501309317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6478,6 +9736,23 @@ MonoBehaviour:
   lastModified: 637213923343813382
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &1227426061051954703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
   Exists: 0
 --- !u!114 &1242603183964356216
 MonoBehaviour:
@@ -6515,6 +9790,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &1274049588763332441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &1283695987053454863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6531,6 +9823,23 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  Exists: 0
+--- !u!114 &1324429132567480116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
   Exists: 0
 --- !u!114 &1334347255426235827
 MonoBehaviour:
@@ -6585,6 +9894,31 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &1347266655348114570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PlayerSounds/Laser/LaserCharge_2
+  m_EditorClassIdentifier: 
+  Path: event:/PlayerSounds/Laser/LaserCharge_2
+  guid: 00d15721dca5874fbd658717129d9cff
+  Banks:
+  - {fileID: 4851959432335490893}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 831793703727101625}
+  - {fileID: -8220059778968902016}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 38223
 --- !u!114 &1351240942616540696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6654,6 +9988,58 @@ MonoBehaviour:
   Min: 0
   Max: 100
   Default: 1
+  Exists: 0
+--- !u!114 &1391356136454071527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &1395280303192966294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &1417498230492957743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637228255053770861
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &1437096623813284954
 MonoBehaviour:
@@ -6743,6 +10129,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &1527562255685977373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &1545795943994985611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6779,6 +10182,59 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &1550271699200803284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637227624649268530
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1555142098369842822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &1584707499030807099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227630162525331
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &1594851961822447767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6794,6 +10250,23 @@ MonoBehaviour:
   Name: Cancel Charge
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &1639366002165622241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
   Default: 0
   Exists: 0
 --- !u!114 &1646847419487454777
@@ -6813,7 +10286,7 @@ MonoBehaviour:
   lastModified: 637226916840819302
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &1665958486059931518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7021,7 +10494,7 @@ MonoBehaviour:
   Min: -90
   Max: 90
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &1935004349407423572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7037,6 +10510,40 @@ MonoBehaviour:
   Name: Resonance
   Min: 0
   Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &1943838931838363409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &1955922204168565931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Explosion/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
   Default: 0
   Exists: 0
 --- !u!114 &1990608392518943938
@@ -7109,6 +10616,57 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 0
+--- !u!114 &2070071404324065300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &2089879280471354026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &2099479240316528004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &2117158589851626343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7143,6 +10701,23 @@ MonoBehaviour:
   Max: 90
   Default: 0
   Exists: 0
+--- !u!114 &2198085687624129553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &2204101835716843689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7158,6 +10733,24 @@ MonoBehaviour:
   Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
   SubDir: 
   lastModified: 637213924264121469
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2217844284364799345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227624222202380
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -7210,6 +10803,24 @@ MonoBehaviour:
   Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
   SubDir: 
   lastModified: 637217011112314537
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2316233575256300805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637227631311474751
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -7280,7 +10891,7 @@ MonoBehaviour:
   Path: event:/EntitySounds/Scanwave/Scanbeep
   guid: c15eea7e73870e43acadc377cf648388
   Banks:
-  - {fileID: 3793080245990645950}
+  - {fileID: -5688656455783853222}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -7288,6 +10899,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1400
+--- !u!114 &2515069852146859704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &2519911099286807413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7323,6 +10951,23 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &2558223586439056338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &2558744517040812422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7338,6 +10983,23 @@ MonoBehaviour:
   Name: Pan
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &2565880791477659007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
   Default: 0
   Exists: 0
 --- !u!114 &2614194847979124707
@@ -7357,6 +11019,23 @@ MonoBehaviour:
   Max: 90
   Default: 0
   Exists: 0
+--- !u!114 &2617438927192023942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &2628388844610487872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7374,6 +11053,23 @@ MonoBehaviour:
   lastModified: 637217361002095588
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &2678289533857064845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
   Exists: 0
 --- !u!114 &2692313678476393092
 MonoBehaviour:
@@ -7408,6 +11104,23 @@ MonoBehaviour:
   Name: AlarmPanning
   Min: -90
   Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &2698388950732541397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
   Default: 0
   Exists: 0
 --- !u!114 &2718874091560168118
@@ -7462,6 +11175,23 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 0
+--- !u!114 &2738196443822886933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &2837116232053573407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7478,6 +11208,24 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+  Exists: 0
+--- !u!114 &2837222135478527000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637227441474915495
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &2884152032893213081
 MonoBehaviour:
@@ -7548,8 +11296,25 @@ MonoBehaviour:
   Min: 0
   Max: 100
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &2950142727697005734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &2970811089113265723
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7655,6 +11420,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &3069598516468190229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637226945333440442
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &3081082903202907154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7705,6 +11488,40 @@ MonoBehaviour:
   Name: Panning
   Min: -100
   Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &3151155166445841214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &3173593501006496568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
   Default: 0
   Exists: 0
 --- !u!114 &3182763674019922070
@@ -7778,6 +11595,41 @@ MonoBehaviour:
   Path: ASG FMOD/Build/Desktop/EntitySounds.bank
   SubDir: 
   lastModified: 637225796971689554
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &3268798171838918349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &3304716014260971782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637228263015375969
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -7903,6 +11755,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &3511338917583969305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &3595678183165553834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7934,6 +11803,23 @@ MonoBehaviour:
   m_Name: parameter:/LaserCharge/Panning
   m_EditorClassIdentifier: 
   Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &3649375986050471238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
   Min: -90
   Max: 90
   Default: 0
@@ -8023,6 +11909,40 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 0
+--- !u!114 &3761179444256376744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &3769189917652045378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Explosion/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 1
 --- !u!114 &3770593733684378636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8062,7 +11982,24 @@ MonoBehaviour:
   lastModified: 637226916840509405
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
+--- !u!114 &3796827260322699122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &3808031684261055189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8080,6 +12017,23 @@ MonoBehaviour:
   lastModified: 637216527998586525
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &3829435159260316667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
   Exists: 0
 --- !u!114 &3832148861745885166
 MonoBehaviour:
@@ -8135,6 +12089,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &3904396354461511327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &3908523152859194236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8168,6 +12139,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &3959536757392727273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637227654039227266
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &4003269673334326119
 MonoBehaviour:
@@ -8325,6 +12314,24 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &4099164767310049568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637227654038737436
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &4104140937337329191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8355,6 +12362,23 @@ MonoBehaviour:
   m_Name: parameter:/LaserCharge/Panning
   m_EditorClassIdentifier: 
   Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &4112664892226466614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
   Min: -90
   Max: 90
   Default: 0
@@ -8428,6 +12452,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &4221132150287015322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &4235415838911778907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8462,7 +12503,24 @@ MonoBehaviour:
   lastModified: 637226916840789316
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
+--- !u!114 &4272550873309007814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &4301291195547043118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8513,6 +12571,24 @@ MonoBehaviour:
   Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
   SubDir: 
   lastModified: 637216995334883943
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4316193451132165624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637228263015096066
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -8604,7 +12680,7 @@ MonoBehaviour:
   lastModified: 637226916841109210
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &4406145294052084246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8656,6 +12732,23 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 0
+--- !u!114 &4495139582915180077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &4513587261158251890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8672,6 +12765,23 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  Exists: 0
+--- !u!114 &4517144164863686588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
   Exists: 0
 --- !u!114 &4525367463288439833
 MonoBehaviour:
@@ -8729,6 +12839,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1615
+--- !u!114 &4630195039905489406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/AlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &4662013485952580076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8746,6 +12873,23 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 0
+--- !u!114 &4662647301342177108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &4669530898706350027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8759,6 +12903,23 @@ MonoBehaviour:
   m_Name: parameter:/LaserCharge/Pan
   m_EditorClassIdentifier: 
   Name: Pan
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &4679589352734267950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
   Min: 0
   Max: 1
   Default: 0
@@ -8815,6 +12976,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &4722538520067998818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &4728446210464972121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8850,6 +13028,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &4774839123542107209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637226945370708176
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4818782468391924830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &4841046848111286422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8867,6 +13080,41 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 0
+--- !u!114 &4851959432335490893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637228313988611485
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &4852715001123085628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &4875074433021868670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8882,6 +13130,24 @@ MonoBehaviour:
   Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
   SubDir: 
   lastModified: 637226903331406089
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4882729147088235248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637227627483199072
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -8953,6 +13219,41 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  Exists: 0
+--- !u!114 &5004853871535188515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637228255053490950
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5015309450933705661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
   Exists: 0
 --- !u!114 &5036031476694938665
 MonoBehaviour:
@@ -9075,6 +13376,58 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &5147739287498569917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637226939647542017
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5153325656344960021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &5154892015335546650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Explosion/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &5172519308503206768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9090,6 +13443,92 @@ MonoBehaviour:
   Name: Resonance
   Min: 0
   Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &5185290362024730010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &5202288643177860191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637228253208294088
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5222799249474126663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &5237067155945500447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &5250588126542130762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 0
 --- !u!114 &5253087099569734316
@@ -9127,6 +13566,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &5263994340295929457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &5311516976580656384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9160,6 +13616,23 @@ MonoBehaviour:
   Name: Pan
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &5391498760638493075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
   Default: 0
   Exists: 0
 --- !u!114 &5402399505425250262
@@ -9232,6 +13705,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &5438853976223367710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &5441145083514239976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9284,6 +13774,91 @@ MonoBehaviour:
   lastModified: 637226858309696023
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &5477796288414320815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &5502370113999218413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/AlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &5504484880545094307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &5508248309271634434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &5511816857791667172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
   Exists: 0
 --- !u!114 &5517790010437658146
 MonoBehaviour:
@@ -9349,6 +13924,41 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &5561383504791858896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637226945370998082
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5653504963829646063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Resonance
   m_EditorClassIdentifier: 
   Name: Resonance
   Min: 0
@@ -9424,6 +14034,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &5750904031402125551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637226945263877397
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &5760388419666929176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9435,6 +14063,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &5763193348064996040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Panning
   m_EditorClassIdentifier: 
   Name: Panning
   Min: -90
@@ -9581,6 +14226,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &5981869396798392876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Explosion/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &6014903640047598320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9616,6 +14278,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &6045714295488830846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &6101284829581433689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9631,6 +14310,23 @@ MonoBehaviour:
   Name: Proximity
   Min: 0
   Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &6105336727338433164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
   Default: 0
   Exists: 0
 --- !u!114 &6120779402772916121
@@ -9685,6 +14381,24 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &6166435988704786020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637228263015585902
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &6233437394235230381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9700,6 +14414,23 @@ MonoBehaviour:
   Name: Pan
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6243717915645807439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/AlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AlarmPanning
+  Min: -90
+  Max: 90
   Default: 0
   Exists: 0
 --- !u!114 &6254906456760189683
@@ -9859,6 +14590,24 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &6340908652184750949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637228313988071653
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &6347443032950585571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9876,6 +14625,23 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &6353762784653037659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &6406797750825913556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9892,6 +14658,42 @@ MonoBehaviour:
   Min: 0
   Max: 100
   Default: 0
+  Exists: 0
+--- !u!114 &6413468413368532625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227637544527354
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6436505104387451775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637228254801178331
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &6473545510275867042
 MonoBehaviour:
@@ -9923,6 +14725,41 @@ MonoBehaviour:
   m_Name: parameter:/LaserCharge/Resonance
   m_EditorClassIdentifier: 
   Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &6484926188988471554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637228253212363690
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6490154544642249154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
   Min: 0
   Max: 100
   Default: 0
@@ -10099,6 +14936,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &6687692093509654069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &6703528262192140778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10151,6 +15005,40 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &6732393709584181693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &6737008370844596099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &6758447247385924066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10185,6 +15073,23 @@ MonoBehaviour:
   lastModified: 637217359797975410
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &6813844857108354098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
   Exists: 0
 --- !u!114 &6834231099599567001
 MonoBehaviour:
@@ -10257,6 +15162,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &6953953066078941855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &7024487889076725318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10309,6 +15231,23 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &7145729504978770796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &7147751964362047768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10341,6 +15280,24 @@ MonoBehaviour:
   Path: ASG FMOD/Build/Desktop/Music.bank
   SubDir: 
   lastModified: 637220474191512681
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7206862852555404495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637228282762814426
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -10430,6 +15387,24 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 0
+--- !u!114 &7313191676603956011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637227637545077170
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &7318789651341718864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10448,6 +15423,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7332823099089801587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &7352127801240647911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10465,6 +15457,40 @@ MonoBehaviour:
   lastModified: 637221651758199636
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &7363752004696947672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &7370174575995614992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
   Exists: 0
 --- !u!114 &7372697303446718382
 MonoBehaviour:
@@ -10517,6 +15543,23 @@ MonoBehaviour:
   lastModified: 637225911744792409
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &7394376642851120540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
   Exists: 0
 --- !u!114 &7416497018486902962
 MonoBehaviour:
@@ -10588,6 +15631,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7440926510785239976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &7460451877556234877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10603,6 +15663,24 @@ MonoBehaviour:
   Path: ASG FMOD/Build/Desktop/Music.bank
   SubDir: 
   lastModified: 637225909038556044
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7472464571038213603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637227655959799929
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -10655,6 +15733,23 @@ MonoBehaviour:
   m_Name: parameter:/Missile Alarm/AlarmPanning
   m_EditorClassIdentifier: 
   Name: AlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &7512384442855254964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
   Min: -90
   Max: 90
   Default: 0
@@ -10728,6 +15823,24 @@ MonoBehaviour:
   Max: 90
   Default: 0
   Exists: 0
+--- !u!114 &7549706160836144935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637227440953439668
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &7553076251373719762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10743,6 +15856,23 @@ MonoBehaviour:
   Name: Proximity
   Min: 0
   Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &7558126806845882722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
   Default: 0
   Exists: 0
 --- !u!114 &7600994259281566627
@@ -10798,6 +15928,23 @@ MonoBehaviour:
   Max: 90
   Default: 0
   Exists: 0
+--- !u!114 &7617024825052477339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &7628503088716249877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10813,16 +15960,16 @@ MonoBehaviour:
   Path: event:/EntitySounds/Ammo/Ammo Alarm
   guid: 450bd5ff137e834fb4f43b4441d471f1
   Banks:
-  - {fileID: 3793080245990645950}
+  - {fileID: -5688656455783853222}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -823429322255176652}
-  - {fileID: 8331956635796965080}
+  - {fileID: 7663883528791698745}
+  - {fileID: -3341106203193491998}
   MinDistance: 0
   MaxDistance: 0
-  Length: 3403
+  Length: 3401
 --- !u!114 &7634015917762164667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10891,14 +16038,49 @@ MonoBehaviour:
   Path: event:/PlayerSounds/Death
   guid: 3f0cba5095a4a54d860dccf80d63066e
   Banks:
-  - {fileID: 4397049205581886918}
+  - {fileID: 4851959432335490893}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 0
+  MaxDistance: 0
   Length: 3428
+--- !u!114 &7663883528791698745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/AmmoAlarmPanning
+  m_EditorClassIdentifier: 
+  Name: AmmoAlarmPanning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 1
+--- !u!114 &7678367382986604327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637226939647512022
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &7689454246876405038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11088,6 +16270,40 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &7805145706428863218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &7834261801356326201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &7849197150804478567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11104,6 +16320,24 @@ MonoBehaviour:
   Min: 0
   Max: 100
   Default: 0
+  Exists: 0
+--- !u!114 &7943531898522664275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637228254800848440
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &7962604961527749418
 MonoBehaviour:
@@ -11244,6 +16478,41 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &8135596623649464103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637227637544257440
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8139464123908661134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
 --- !u!114 &8147789498219156174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11329,6 +16598,24 @@ MonoBehaviour:
   Min: 0
   Max: 2
   Default: 0
+  Exists: 0
+--- !u!114 &8224271841339733388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637227636873079821
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &8227843097629253089
 MonoBehaviour:
@@ -11469,6 +16756,23 @@ MonoBehaviour:
   Max: 90
   Default: 0
   Exists: 0
+--- !u!114 &8312566104853362801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &8331956635796965080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11485,7 +16789,42 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
+--- !u!114 &8342003729892394440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &8356135154185065537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637227623511126606
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8363409094901024961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11503,6 +16842,23 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &8365373812200844829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge_2/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &8372047071154244679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11518,6 +16874,23 @@ MonoBehaviour:
   Name: Panning
   Min: -90
   Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &8379559350279151567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Missile Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 100
   Default: 0
   Exists: 0
 --- !u!114 &8421618677698861041
@@ -11573,6 +16946,60 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &8454360789239545076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/PlayerSounds.bank
+  SubDir: 
+  lastModified: 637228263015915795
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8471679338147582558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637227637544737278
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8513688149695879096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637228255053970783
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8519496031292003892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11590,6 +17017,24 @@ MonoBehaviour:
   Max: 90
   Default: 0
   Exists: 0
+--- !u!114 &8547934132873320452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637227624221932477
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8567673353737810575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11605,6 +17050,40 @@ MonoBehaviour:
   Name: AlarmPanning
   Min: -90
   Max: 90
+  Default: 0
+  Exists: 0
+--- !u!114 &8569718338693792518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &8579282781224975390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
   Default: 0
   Exists: 0
 --- !u!114 &8606356567176040947
@@ -11658,6 +17137,23 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &8656352001053523105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &8674739038202896619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11692,6 +17188,40 @@ MonoBehaviour:
   lastModified: 637221363850824094
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &8708040209927284387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &8761267118526535424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
   Exists: 0
 --- !u!114 &8762685259005423025
 MonoBehaviour:
@@ -11745,6 +17275,23 @@ MonoBehaviour:
   Max: 100
   Default: 0
   Exists: 0
+--- !u!114 &8805005986298381172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Panning
+  m_EditorClassIdentifier: 
+  Name: Panning
+  Min: -90
+  Max: 90
+  Default: 0
+  Exists: 0
 --- !u!114 &8823280392294561446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11763,6 +17310,23 @@ MonoBehaviour:
   Default: 0
   Exists: 0
 --- !u!114 &8876369688277312285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 0
+--- !u!114 &8892791104311941751
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11831,6 +17395,23 @@ MonoBehaviour:
   lastModified: 637226858308936280
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &8936263397752593620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ammo Alarm/Proximity
+  m_EditorClassIdentifier: 
+  Name: Proximity
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 0
 --- !u!114 &8939006932777207785
 MonoBehaviour:
@@ -11936,6 +17517,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &9047925383006301613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637227627482719239
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &9062933877465721536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11971,6 +17570,24 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &9112555271232685780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EntitySounds.bank
+  m_EditorClassIdentifier: 
+  Path: ASG FMOD/Build/Desktop/EntitySounds.bank
+  SubDir: 
+  lastModified: 637227656962364163
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &9120081549251833504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11988,6 +17605,23 @@ MonoBehaviour:
   lastModified: 637217014133833360
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &9184677101051112735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaserCharge/Resonance
+  m_EditorClassIdentifier: 
+  Name: Resonance
+  Min: 0
+  Max: 100
+  Default: 0
   Exists: 0
 --- !u!114 &9213348892809020148
 MonoBehaviour:

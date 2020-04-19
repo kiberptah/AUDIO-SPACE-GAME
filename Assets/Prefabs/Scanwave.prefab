@@ -49,7 +49,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4217994749089258622}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -110,9 +110,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxScanDistance: 80
   speed: 30
+  currentScanMode: 0
   fmodEvent:
   - event:/EntitySounds/Scanwave/Scanbeep
   - event:/EntitySounds/Missile/Missile Alarm
   - event:/EntitySounds/Ammo/Ammo Alarm
   soundInstancePrefab: {fileID: 1127542163925268044, guid: 7f89b42d6a0dc5d489ae2911967c95b3,
+    type: 3}
+  scanWaveVisualPrefab: {fileID: 978335293329251187, guid: 640743a620f1abb44b720bcfd9a87d5c,
     type: 3}

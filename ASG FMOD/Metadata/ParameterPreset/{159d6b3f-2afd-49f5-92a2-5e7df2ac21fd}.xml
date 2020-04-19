@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="ParameterPreset" id="{159d6b3f-2afd-49f5-92a2-5e7df2ac21fd}">
 		<property name="name">
-			<value>AlarmPanning</value>
+			<value>Panning</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d2aa1d27-31ef-4e79-9af5-6e8b04246d77}</destination>

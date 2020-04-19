@@ -330,6 +330,9 @@
 	</object>
 	<object class="MixerBusFader" id="{f09a7cb2-2796-40bc-b9e8-3175321862c4}" />
 	<object class="SpatialiserEffect" id="{5338a223-0d16-4ba5-8389-6f407969fc38}">
+		<property name="distanceRolloffType">
+			<value>4</value>
+		</property>
 		<property name="panBlend">
 			<value>0</value>
 		</property>

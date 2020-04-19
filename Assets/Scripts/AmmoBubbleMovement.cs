@@ -4,12 +4,19 @@ using UnityEngine;
 
 public class AmmoBubbleMovement : MonoBehaviour
 {
+    [FMODUnity.EventRef]
+    public string eventPathCollectAmmo;
+    private FMOD.Studio.EventInstance collectAmmo;
+
+
+
+    public float energy = 30f;
     public float speed = 10f;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        collectAmmo = FMODUnity.RuntimeManager.CreateInstance(eventPathCollectAmmo);
     }
 
     // Update is called once per frame
@@ -22,4 +29,13 @@ public class AmmoBubbleMovement : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            collectAmmo.start();
+            Destroy(gameObject);
+        }
+    }
+
 }
