@@ -32,6 +32,7 @@ public class ShootLaser : MonoBehaviour
         StartingCharge,
         Charging,
         Fire,
+        Cancel,
         Waiting
     }
     shootingStatus status = shootingStatus.Waiting;
@@ -52,8 +53,10 @@ public class ShootLaser : MonoBehaviour
     public float energyForShot = 10f;
     public float energyForChargeSec = 1f;
     public float cooldown;
-    
-    
+
+    //Визуализация
+    public GameObject aimLinePrefab;
+    GameObject aimLine;
 
     void Start()
     {
@@ -106,8 +109,13 @@ public class ShootLaser : MonoBehaviour
                 soundInstance[0] = Instantiate(soundInstancePrefab, transform);
                 soundInstance[0].GetComponent<RunAudioGetMarkers>().audioInstance = eventCharge;
                 soundInstance[0].GetComponent<RunAudioGetMarkers>().Execute();
-                
+                /// Показываем линию прицела
+                aimLine = Instantiate(aimLinePrefab, transform, worldPositionStays:true);
+                aimLine.transform.rotation = aimLinePrefab.transform.rotation;
+                StartCoroutine(spriteFadeIn(aimLine, .05f));
+                // Меняем статус
                 status = shootingStatus.StartingCharge;
+                
             }
             if (status == shootingStatus.StartingCharge 
                 && soundInstance[0].GetComponent<RunAudioGetMarkers>().timelineInfo.lastMarker == "Hum")
@@ -118,12 +126,26 @@ public class ShootLaser : MonoBehaviour
             {
                 // Тратим энергию
                 StartCoroutine(suckEnergy());
+                    
             }
-
+            if (status == shootingStatus.StartingCharge || status == shootingStatus.Charging)
+            {
+                // Крутим прицел
+                if (aimLine != null)
+                {
+                    aimLine.transform.position = gameObject.transform.position;
+                    aimLine.transform.rotation = Quaternion.Euler(90f, 0, -lookDirection);
+                }
+            }
             if (Input.GetButtonDown("Fire") 
                 && status == shootingStatus.Charging
                 && gameObject.GetComponent<PlayerStats>().energy >= energyForShot)
             {
+                // Отключаем прицел
+                if (aimLine != null)
+                {
+                    Destroy(aimLine);
+                }
                 // Спавним пулю и т.д.
                 Fire();
                 // Прекращаем гул зарядки
@@ -138,7 +160,13 @@ public class ShootLaser : MonoBehaviour
             }
         }
         if (Input.GetButtonUp("Charge") || gameObject.GetComponent<PlayerStats>().energy <= 0)
-        {            
+        {
+            // Отключаем прицел
+            if (aimLine != null)
+            {
+                Destroy(aimLine);
+            }
+            //
             if(status == shootingStatus.StartingCharge)
             {
                 soundInstance[0].GetComponent<RunAudioGetMarkers>().Destroy(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
@@ -155,6 +183,8 @@ public class ShootLaser : MonoBehaviour
 
                 StartCoroutine(AfterFire(cooldown));
             }
+
+            status = shootingStatus.Waiting;
         }
 
         if(Input.GetButton("Charge") != true && status == shootingStatus.Waiting)
@@ -203,6 +233,8 @@ public class ShootLaser : MonoBehaviour
 
             lookDirection += Time.deltaTime * lookSpeed * input;
             lookDirection = Mathf.Clamp(lookDirection, -limit, limit);
+
+            
             //theLaser.transform.Rotate(0, lookDirection - theLaser.transform.rotation.z, 0, Space.World);
             eventCharge.setParameterByID(panParameterID, lookDirection);
             ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -219,7 +251,7 @@ public class ShootLaser : MonoBehaviour
                 UnityEngine.Debug.DrawRay(gameObject.transform.position, aimVector * 1000f);
 
                 //if (angl >= Mathf.Rad2Deg * Mathf.Atan(xdist / zdist))
-                if(angl >= Vector3.Angle(aimVector, missileVector))
+                if (angl >= Vector3.Angle(aimVector, missileVector))
                 {
                     //angl = Mathf.Rad2Deg * Mathf.Atan(xdist / zdist);
                     angl = Vector3.Angle(aimVector, missileVector);
@@ -251,7 +283,7 @@ public class ShootLaser : MonoBehaviour
             /// Потратить боеприпасы
             gameObject.GetComponent<PlayerStats>().energy -= energyForShot;
 
-            UnityEngine.Debug.Log("Energy: " + gameObject.GetComponent<PlayerStats>().energy);
+            //UnityEngine.Debug.Log("Energy: " + gameObject.GetComponent<PlayerStats>().energy);
     
     }
 
@@ -262,5 +294,26 @@ public class ShootLaser : MonoBehaviour
         gameObject.GetComponent<PlayerStats>().energy -= energyForChargeSec * Time.deltaTime;
 
         yield return new WaitForSeconds(udpateRate);
+    }
+
+    IEnumerator spriteFadeIn(GameObject someObject, float frequency)
+    {
+        Color objectColor;
+        objectColor = someObject.GetComponent<SpriteRenderer>().color;
+        objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, 0);
+
+        
+        while (objectColor.a < 1 && someObject != null)
+        {
+            objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, objectColor.a + 0.1f);
+            someObject.GetComponent<SpriteRenderer>().color = objectColor;
+            objectColor = someObject.GetComponent<SpriteRenderer>().color;
+            //UnityEngine.Debug.Log(someObject.GetComponent<SpriteRenderer>().color);
+            yield return new WaitForSeconds(frequency);
+        }
+        
+            
+
+        yield return null; 
     }
 }

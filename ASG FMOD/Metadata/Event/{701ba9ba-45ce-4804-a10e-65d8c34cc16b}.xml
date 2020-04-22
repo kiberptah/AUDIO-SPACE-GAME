@@ -112,7 +112,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{e948fafe-6e06-4b6d-8535-ddce95b6f580}">
 		<property name="volume">
-			<value>8</value>
+			<value>10</value>
 		</property>
 		<property name="overridingInputFormat">
 			<value>1</value>
@@ -171,9 +171,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b0817066-b508-4b2a-abe3-db6ba861ef12}">
-		<property name="volume">
-			<value>-7.5</value>
-		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -500,7 +497,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-17</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{50abccb8-f11e-4f7b-8595-ce028bf7da3b}">

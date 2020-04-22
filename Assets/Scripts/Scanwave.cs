@@ -85,6 +85,7 @@ public class Scanwave : MonoBehaviour
             //yield return new WaitForSeconds(0.0001f);
         }
         Destroy(scanWaveVisual);
+        Destroy(scanWaveVisual);
         Destroy(gameObject);
     }
 

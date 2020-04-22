@@ -110,7 +110,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eventDestroyPath: event:/EntitySounds/Missile/Missile Explosion
-  missileSpeed: 2
+  missileSpeed: 4
+  damage: 30
 --- !u!54 &-1276290291955549859
 Rigidbody:
   m_ObjectHideFlags: 0

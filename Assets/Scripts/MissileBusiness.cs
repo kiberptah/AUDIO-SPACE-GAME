@@ -5,6 +5,8 @@ using UnityEngine;
 using FMOD;
 using System;
 
+
+
 public class MissileBusiness : MonoBehaviour
 {
     GameObject gameController;
@@ -30,6 +32,8 @@ public class MissileBusiness : MonoBehaviour
     private Transform target;
     public float missileSpeed = 1f;
     private Vector3 moveDirection;
+
+    public float damage = 30f;
 
     // Start is called before the first frame update
     void Start()
@@ -116,8 +120,15 @@ public class MissileBusiness : MonoBehaviour
         }
         if (other.gameObject.tag == "Player")
         {
-            gameController.GetComponent<GameStatesManager>().Lose();
-
+            //gameController.GetComponent<GameStatesManager>().Lose();
+            //Нанести урон
+            other.GetComponent<PlayerStats>().hull = other.GetComponent<PlayerStats>().hull - damage;
+            //Встряхнуть камеру
+            
+            //GameObject Camera;
+            //Camera = GameObject.FindGameObjectWithTag("MainCamera");
+            EZCameraShake.CameraShaker.Instance.ShakeOnce(1f, 10f, 0f, 3f);
+            //Уничтожить ракету
             Destroy(gameObject);
         }
         if (other.gameObject.tag == "Bullet")
