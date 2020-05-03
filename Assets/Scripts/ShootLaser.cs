@@ -93,7 +93,6 @@ public class ShootLaser : MonoBehaviour
         DetectMissiles();
         Control();
         mouseTracking();
-        
     }
 
     public void Control()
@@ -223,7 +222,6 @@ public class ShootLaser : MonoBehaviour
             if (Input.GetAxis("AxisX") > 0)
             {
                 input = rotationspeed;
-
             }
             if (Input.GetAxis("AxisX") < 0)
             {

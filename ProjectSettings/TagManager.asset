@@ -8,6 +8,9 @@ TagManager:
   - Scanwave
   - Bullet
   - Ammo
+  - FloorSpawner
+  - ScanWaveVisual
+  - MusicManager
   layers:
   - Default
   - TransparentFX

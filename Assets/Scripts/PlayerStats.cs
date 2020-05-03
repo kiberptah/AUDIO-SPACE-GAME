@@ -30,7 +30,7 @@ public class PlayerStats : MonoBehaviour
         gameController = GameObject.FindGameObjectWithTag("GameController");
 
         hull = maxHull;
-        energy = maxEnergy;
+        energy = 0;
     }
 
     // Update is called once per frame
@@ -42,7 +42,7 @@ public class PlayerStats : MonoBehaviour
 
     public void ResetPlayerState()
     {
-        gameObject.GetComponent<PlayerStats>().energy = gameObject.GetComponent<PlayerStats>().maxEnergy;
+        gameObject.GetComponent<PlayerStats>().energy = 0;
         gameObject.GetComponent<PlayerStats>().hull = gameObject.GetComponent<PlayerStats>().maxHull;
 
         gameObject.transform.position = defaultPosition;

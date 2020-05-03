@@ -6,17 +6,27 @@ public class AmmoBubbleMovement : MonoBehaviour
 {
     [FMODUnity.EventRef]
     public string eventPathCollectAmmo;
-    private FMOD.Studio.EventInstance collectAmmo;
+    [FMODUnity.EventRef]
+    public string eventPathEnergyNoise;
 
+    private FMOD.Studio.EventInstance collectAmmo;
+    private FMOD.Studio.EventInstance energyNoise;
 
 
     public float energy = 30f;
     public float speed = 10f;
+    GameObject Player;
 
     // Start is called before the first frame update
     void Start()
     {
+        Player = GameObject.FindGameObjectWithTag("Player");
+
         collectAmmo = FMODUnity.RuntimeManager.CreateInstance(eventPathCollectAmmo);
+        energyNoise = FMODUnity.RuntimeManager.CreateInstance(eventPathEnergyNoise);
+
+        energyNoise.start();
+        StartCoroutine(setParameters());
     }
 
     // Update is called once per frame
@@ -38,4 +48,47 @@ public class AmmoBubbleMovement : MonoBehaviour
         }
     }
 
+    private void OnDestroy()
+    {
+        StopAllCoroutines();
+        energyNoise.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    }
+
+    float CorrectPanning(GameObject other)
+    {
+        float panning;
+
+        float zdist = other.transform.position.z - Player.transform.position.z;
+        float xdist = other.transform.position.x - Player.transform.position.x;
+
+        float angl = Mathf.Rad2Deg * Mathf.Atan(xdist / zdist);
+
+        panning = angl;
+        return panning;
+
+        /*
+        UnityEngine.Debug.Log("z = " + zdist);
+        UnityEngine.Debug.Log("x = " + xdist);
+        UnityEngine.Debug.Log("angl = " + angl);
+        */
+    }
+
+    float Distance()
+    {
+        float distance;
+        distance = (transform.position - Player.transform.position).magnitude;
+        distance = 50 - Mathf.Clamp(distance, 0, 50f);
+        //Debug.Log(distance);
+        return distance;
+    }
+
+    IEnumerator setParameters()
+    {
+        while (true)
+        {
+            energyNoise.setParameterByName("Panning", CorrectPanning(gameObject));
+            energyNoise.setParameterByName("Proximity", Distance());
+            yield return null;
+        }
+    }
 }

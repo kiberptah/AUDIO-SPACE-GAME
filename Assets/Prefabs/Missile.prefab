@@ -50,7 +50,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7292471349819456694}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -109,9 +109,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2dc60d930f6c904e866b3aaf6cc3591, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventDestroyPath: event:/EntitySounds/Missile/Missile Explosion
-  missileSpeed: 4
-  damage: 30
+  eventDestroyPath: event:/EntitySounds/Missile/Missile Explosion New
+  missileSpeed: 3
+  damage: 20
 --- !u!54 &-1276290291955549859
 Rigidbody:
   m_ObjectHideFlags: 0

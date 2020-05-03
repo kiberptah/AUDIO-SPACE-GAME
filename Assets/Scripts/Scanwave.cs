@@ -7,12 +7,15 @@ public class Scanwave : MonoBehaviour
     public float maxScanDistance = 50f;
     public float speed = 100f;
     GameObject Player;
+
+    /*
     public enum scanMode
     {
         Missiles,
         Ammo
     }
     public scanMode currentScanMode = scanMode.Missiles;
+    */
 
     // Аудио
     [FMODUnity.EventRef]
@@ -34,6 +37,7 @@ public class Scanwave : MonoBehaviour
         Player = GameObject.FindGameObjectWithTag("Player");
         ///
         //
+        Destroy(GameObject.FindGameObjectWithTag("ScanWaveVisual"));
         scanWaveVisual = Instantiate(scanWaveVisualPrefab, Player.transform.position, Quaternion.identity);
         scanWaveVisual.transform.rotation = scanWaveVisualPrefab.transform.rotation;
         /// Звук
@@ -85,7 +89,6 @@ public class Scanwave : MonoBehaviour
             //yield return new WaitForSeconds(0.0001f);
         }
         Destroy(scanWaveVisual);
-        Destroy(scanWaveVisual);
         Destroy(gameObject);
     }
 
@@ -97,8 +100,15 @@ public class Scanwave : MonoBehaviour
 
     void CheckCollision(Collider other)
     {
+
+
         if (transform.localScale.x < maxScanDistance * 0.9f)
         {
+            if (other.gameObject.tag == "Missile")
+            {
+                MissileAlarm(other);
+            }
+            /*
             if (currentScanMode == scanMode.Missiles)
             {
                 if (other.gameObject.tag == "Missile")
@@ -114,9 +124,11 @@ public class Scanwave : MonoBehaviour
                     AmmoAlarm(other);
                 }
             }
+            */
         }
     }
 
+    /*
     void AmmoAlarm(Collider other)
     {
         soundInstances.Add(new GameObject("AmmoAlarm"));
@@ -129,7 +141,7 @@ public class Scanwave : MonoBehaviour
         soundInstances[soundInstances.Count - 1].GetComponent<RunAudioGetMarkers>().Execute();
         Debug.Log("ammoscanned");
     }
-
+    */
     void MissileAlarm(Collider other)
     {
         soundInstances.Add(new GameObject("MissileAlarm"));

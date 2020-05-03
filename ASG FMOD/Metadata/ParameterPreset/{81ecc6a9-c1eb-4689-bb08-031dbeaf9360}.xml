@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{81ecc6a9-c1eb-4689-bb08-031dbeaf9360}">
+		<property name="name">
+			<value>GunRotation</value>
+		</property>
+		<relationship name="folder">
+			<destination>{057e21b4-f32a-4864-8612-0666de6d51d9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{2b2069e2-6f56-409c-b2b5-d2c1c865439a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{2b2069e2-6f56-409c-b2b5-d2c1c865439a}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -40,6 +40,7 @@ public class Scanner : MonoBehaviour
     {
         while(true)
         {
+            /*
             if (Input.GetButtonDown("ScanMissiles"))
             {
                 Scanwave.GetComponent<Scanwave>().currentScanMode = global::Scanwave.scanMode.Missiles;
@@ -48,7 +49,8 @@ public class Scanner : MonoBehaviour
             {
                 Scanwave.GetComponent<Scanwave>().currentScanMode = global::Scanwave.scanMode.Ammo;
             }
-            if ((Input.GetButtonDown("ScanMissiles") || Input.GetButtonDown("ScanAmmo"))
+            */
+            if ((Input.GetButtonDown("Scan"))
                 && Player.GetComponent<PlayerStats>().energy >= energyForScan)
             {
                 //Тратим энергию

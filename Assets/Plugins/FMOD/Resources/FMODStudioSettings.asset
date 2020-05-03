@@ -20,7 +20,7 @@ MonoBehaviour:
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
-  AutomaticSampleLoading: 0
+  AutomaticSampleLoading: 1
   EncryptionKey: 
   ImportType: 0
   TargetAssetPath: FMODBanks
@@ -46,7 +46,7 @@ MonoBehaviour:
     Value: 0
   OverlaySettings:
   - Platform: 1
-    Value: 1
+    Value: 0
   - Platform: 2
     Value: 0
   - Platform: 20
@@ -79,7 +79,9 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - AI
   - EntitySounds
+  - Misc
   - Music
   - PlayerSounds
   BanksToLoad: []
